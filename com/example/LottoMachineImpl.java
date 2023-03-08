@@ -1,6 +1,6 @@
 package com.example;
 
-// 인터페이스를 구현하게 되면 반드시 인터페이스가 가지고 있는 메소드를 오버라이딩 할 필요가 있음
+// As you implement an interface, you must override the methods of the interface.
 public class LottoMachineImpl implements LottoMachine {
     private Ball[] balls;
 
@@ -9,8 +9,8 @@ public class LottoMachineImpl implements LottoMachine {
         this.balls = balls;
     }
 
-    // Math.random() 은 0 이상 1 미만 사이 실수 반환
-    // 랜덤하게 만 번 섞어주기
+    // Math.random() returns 0 or more and 1 mimna
+    // mix randomly 10,000 times
     @Override
     public void mix() {
         for (int i = 0; i < 10000; i++) {
