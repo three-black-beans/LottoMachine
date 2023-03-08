@@ -13,6 +13,7 @@ for JAVA STUDY
 LottoMachine
 - com.example
   - LottoMachine (interface)
-  - Ball
-  - LottoMachineImpl
+  - Ball (model)
+  - LottoMachineImpl (implementation)
+  - LottoMachineMain (main)
   
