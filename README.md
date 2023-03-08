@@ -1,0 +1,2 @@
+# LottoMachine
+for JAVA STUDY
